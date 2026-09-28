@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="assets/dolphin.jpg" width="160" alt="GitClaw Mascot" style="border-radius: 50%;">
-</p>
-
-# 🐬 GitClaw
+# <img src="assets/dolphin.jpg" width="44" valign="middle" alt="GitClaw Mascot"> GitClaw
 
 > **The Autonomous Local-First Git Co-Pilot & Disaster Recovery Engine.**  
 > *Never lose a commit, botch a rebase, or ship buggy PRs again. Powered by 100% offline Local AI (Ollama) or Cloud LLMs.*
