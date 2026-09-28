@@ -1,4 +1,4 @@
-# 🦀 GitClaw
+# 🐬 GitClaw
 
 > **The Autonomous Local-First Git Co-Pilot & Disaster Recovery Engine.**  
 > *Never lose a commit, botch a rebase, or ship buggy PRs again. Powered by 100% offline Local AI (Ollama) or Cloud LLMs.*
@@ -57,7 +57,7 @@ Every single software engineer knows these three terrifying moments:
 flowchart TD
     subgraph LocalDev["💻 Your Local Machine (100% Offline)"]
         User["Developer / Terminal"]
-        CLI["🦀 GitClaw CLI & TUI\n(Charm Bubbletea)"]
+        CLI["🐬 GitClaw CLI & TUI\n(Charm Bubbletea)"]
         GitCore["Git Invariant Engine\n(Reflog & Worktree Sandbox)"]
         LocalLLM["🦙 Ollama Local AI\n(Qwen2.5 / DeepSeek-R1)"]
         MemoryVault["🧠 3-Tier Memory Vault\n(Repo DNA & Past Fixes)"]
@@ -88,7 +88,7 @@ gitclaw rescue
 GitClaw scans your reflog, object store, and dangling blobs, reconstructs the timeline in a beautiful terminal tree, and lets you preview and restore lost snapshots safely.
 
 ```
-┌───────────────────────── 🦀 GitClaw Rescue Time-Machine ─────────────────────────┐
+┌───────────────────────── 🐬 GitClaw Rescue Time-Machine ─────────────────────────┐
 │                                                                                   │
 │  [2 mins ago]  HEAD@{1}  commit (reset)  feat: auth token refresh (LOST)  ◄ RESTORE │
 │  [15 mins ago] HEAD@{2}  rebase -i       checkout target/main                     │
@@ -140,7 +140,7 @@ GitClaw gets smarter the more your team uses it. Stored locally in `.agents/memo
 
 ## 📊 GitClaw vs. The Competition
 
-| Feature | 🦀 GitClaw | CodeRabbit | GitHub Copilot | GitLens |
+| Feature | 🐬 GitClaw | CodeRabbit | GitHub Copilot | GitLens |
 | :--- | :---: | :---: | :---: | :---: |
 | **100% Offline / Local AI (Ollama)** | ✅ **Yes** | ❌ No | ❌ No | ❌ No |
 | **Zero Code/Data Egress Guarantee** | ✅ **Yes** | ❌ No | ❌ No | ⚠️ Partial |
