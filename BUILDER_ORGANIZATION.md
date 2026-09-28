@@ -1,6 +1,6 @@
-# 🏛️ GitClaw Multi-Agent Builder Organization
+# 🏛️ GitKlaw Multi-Agent Builder Organization
 
-**Classification:** Dedicated Construction Harness for GitClaw  
+**Classification:** Dedicated Construction Harness for GitKlaw  
 **Catalog Size:** 30 Specialized Builder Agents across 10 Engineering Divisions  
 **Harness Protocol:** Directed Acyclic Graph (DAG) + Parallel Review Council  
 

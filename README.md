@@ -1,4 +1,4 @@
-# <img src="assets/dolphin.jpg" width="64" height="64" align="absmiddle" alt="GitClaw Mascot"> &nbsp;GitClaw
+# <img src="assets/dolphin.jpg" width="64" height="64" align="absmiddle" alt="GitKlaw Mascot"> &nbsp;GitKlaw
 
 > **The Autonomous Local-First Git Co-Pilot & Disaster Recovery Engine.**  
 > *Never lose a commit, botch a rebase, or ship buggy PRs again. Powered by 100% offline Local AI (Ollama) or Cloud LLMs.*
@@ -30,7 +30,7 @@ Every single software engineer knows these three terrifying moments:
               \                     |                     /
                ▼                    ▼                    ▼
        ┌─────────────────────────────────────────────────────────┐
-       │                       GITCLAW                           │
+       │                       GITKLAW                           │
        │     The 100% Local Autonomous Git Rescue Engine         │
        └─────────────────────────────────────────────────────────┘
                                     │
@@ -40,9 +40,9 @@ Every single software engineer knows these three terrifying moments:
 
 ---
 
-## ⚡ What is GitClaw?
+## ⚡ What is GitKlaw?
 
-**GitClaw** is a lightweight, single-binary CLI & interactive Terminal UI (TUI) written in Go. It acts as an autonomous Git engineer sitting right in your terminal:
+**GitKlaw** is a lightweight, single-binary CLI & interactive Terminal UI (TUI) written in Go. It acts as an autonomous Git engineer sitting right in your terminal:
 
 * **🚑 Instant Disaster Recovery**: Visualizes dangling blobs and detached HEAD commits in an interactive time-machine DAG, resurrecting lost code in 1 click.
 * **🧠 AST-Aware Merge & Conflict Resolver**: Resolves complex Git conflicts by understanding programming language syntax trees rather than simple text line diffs.
@@ -51,13 +51,13 @@ Every single software engineer knows these three terrifying moments:
 
 ---
 
-## 🚀 How GitClaw Works
+## 🚀 How GitKlaw Works
 
 ```mermaid
 flowchart TD
     subgraph LocalDev["💻 Your Local Machine (100% Offline)"]
         User["Developer / Terminal"]
-        CLI["🐬 GitClaw CLI & TUI\n(Charm Bubbletea)"]
+        CLI["🐬 GitKlaw CLI & TUI\n(Charm Bubbletea)"]
         GitCore["Git Invariant Engine\n(Reflog & Worktree Sandbox)"]
         LocalLLM["🦙 Ollama Local AI\n(Qwen2.5 / DeepSeek-R1)"]
         MemoryVault["🧠 3-Tier Memory Vault\n(Repo DNA & Past Fixes)"]
@@ -80,15 +80,15 @@ flowchart TD
 
 ## 🛠️ Key Capabilities
 
-### 1. 🛟 `gitclaw rescue` — Undo the "Un-undoable"
+### 1. 🛟 `gitklaw rescue` — Undo the "Un-undoable"
 Accidentally ran `git reset --hard`? Lost a detached HEAD?
 ```bash
-gitclaw rescue
+gitklaw rescue
 ```
-GitClaw scans your reflog, object store, and dangling blobs, reconstructs the timeline in a beautiful terminal tree, and lets you preview and restore lost snapshots safely.
+GitKlaw scans your reflog, object store, and dangling blobs, reconstructs the timeline in a beautiful terminal tree, and lets you preview and restore lost snapshots safely.
 
 ```
-┌───────────────────────── 🐬 GitClaw Rescue Time-Machine ─────────────────────────┐
+┌───────────────────────── 🐬 GitKlaw Rescue Time-Machine ─────────────────────────┐
 │                                                                                   │
 │  [2 mins ago]  HEAD@{1}  commit (reset)  feat: auth token refresh (LOST)  ◄ RESTORE │
 │  [15 mins ago] HEAD@{2}  rebase -i       checkout target/main                     │
@@ -105,10 +105,10 @@ GitClaw scans your reflog, object store, and dangling blobs, reconstructs the ti
 
 ---
 
-### 2. 🧩 `gitclaw resolve` — AST-Level Conflict Auto-Fixer
-Traditional Git treats merge conflicts as dumb text. GitClaw parses language Abstract Syntax Trees (AST) to resolve conflicts logically:
+### 2. 🧩 `gitklaw resolve` — AST-Level Conflict Auto-Fixer
+Traditional Git treats merge conflicts as dumb text. GitKlaw parses language Abstract Syntax Trees (AST) to resolve conflicts logically:
 ```bash
-gitclaw resolve --auto
+gitklaw resolve --auto
 ```
 * Merges non-conflicting functions automatically even if they share line numbers.
 * Sorts and deduplicates imports and dependencies without human intervention.
@@ -116,31 +116,31 @@ gitclaw resolve --auto
 
 ---
 
-### 3. 🔍 `gitclaw review` — Private, Fast PR & Local Branch Audits
+### 3. 🔍 `gitklaw review` — Private, Fast PR & Local Branch Audits
 Get deep, senior-level code reviews directly in your terminal before pushing to GitHub:
 ```bash
 # Review local uncommitted diff offline with local Ollama
-gitclaw review --local
+gitklaw review --local
 
 # Review remote GitHub PR #42 with inline suggestions
-gitclaw review pr 42
+gitklaw review pr 42
 ```
 * Catches subtle concurrency bugs, memory leaks, missing error checks, and SQL injections.
 * Zero cloud dependencies when using `--model=ollama:qwen2.5-coder`.
 
 ---
 
-### 4. 🧠 `gitclaw learn` — The 3-Tier Persistent Memory Vault
-GitClaw gets smarter the more your team uses it. Stored locally in `.agents/memory/`:
+### 4. 🧠 `gitklaw learn` — The 3-Tier Persistent Memory Vault
+GitKlaw gets smarter the more your team uses it. Stored locally in `.agents/memory/`:
 * **Repo DNA**: Adapts to your repository's naming styles, error handling conventions, and test setups.
 * **Fix Patterns**: Remembers how you resolved past merge conflicts and CI failures.
 * **Maintainer Rules**: Enforces custom team guidelines during reviews.
 
 ---
 
-## 📊 GitClaw vs. The Competition
+## 📊 GitKlaw vs. The Competition
 
-| Feature | 🐬 GitClaw | CodeRabbit | GitHub Copilot | GitLens |
+| Feature | 🐬 GitKlaw | CodeRabbit | GitHub Copilot | GitLens |
 | :--- | :---: | :---: | :---: | :---: |
 | **100% Offline / Local AI (Ollama)** | ✅ **Yes** | ❌ No | ❌ No | ❌ No |
 | **Zero Code/Data Egress Guarantee** | ✅ **Yes** | ❌ No | ❌ No | ⚠️ Partial |
@@ -158,33 +158,33 @@ GitClaw gets smarter the more your team uses it. Stored locally in `.agents/memo
 
 ```bash
 # Via Homebrew (macOS/Linux)
-brew install gitclaw/tap/gitclaw
+brew install gitklaw/tap/gitklaw
 
 # Via Go install
-go install github.com/gitclaw/gitclaw@latest
+go install github.com/gitklaw/gitklaw@latest
 
 # Via Direct Binary (Windows/Linux/macOS)
-curl -fsSL https://gitclaw.dev/install.sh | bash
+curl -fsSL https://gitklaw.dev/install.sh | bash
 ```
 
 ### 30-Second Setup
 
 ```bash
-# 1. Initialize GitClaw in your repo
-gitclaw init
+# 1. Initialize GitKlaw in your repo
+gitklaw init
 
 # 2. Check repo health & Git tree status
-gitclaw status
+gitklaw status
 
 # 3. Run a quick review using your local Ollama
-gitclaw review --model ollama:qwen2.5-coder
+gitklaw review --model ollama:qwen2.5-coder
 ```
 
 ---
 
 ## 🏗️ Architecture & Philosophy
 
-GitClaw is built with four uncompromising core engineering principles:
+GitKlaw is built with four uncompromising core engineering principles:
 
 1. **Safety First (Zero Workspace Dirt)**: All exploratory operations, AST merges, and dry-runs happen in disposable `.git/worktrees/` scratchpads. Your working tree is never touched unless a fix is 100% verified.
 2. **Local-First, Cloud-Optional**: Full power with Ollama and local heuristics. Connect to Claude or OpenAI only when you explicitly configure API keys.

@@ -1,11 +1,11 @@
 ---
-name: build-gitclaw
-description: Master construction workflow that activates the 30-agent engineering organization to architect, build, and test GitClaw.
+name: build-gitklaw
+description: Master construction workflow that activates the 30-agent engineering organization to architect, build, and test GitKlaw.
 ---
 
-# Build GitClaw Master Skill
+# Build GitKlaw Master Skill
 
-Use this workflow to coordinate the 30-agent engineering organization when constructing or expanding GitClaw.
+Use this workflow to coordinate the 30-agent engineering organization when constructing or expanding GitKlaw.
 
 ## Execution Stages
 

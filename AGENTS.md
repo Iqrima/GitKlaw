@@ -1,7 +1,7 @@
-# 🛠️ Master Antigravity Multi-Agent Construction Protocol (GitClaw)
+# 🛠️ Master Antigravity Multi-Agent Construction Protocol (GitKlaw)
 
 ## 1. System Mission
-This repository houses the dedicated **30-Agent Multi-Division Engineering Organization** designed to build, test, audit, and package **GitClaw** (the autonomous AI Git & GitHub CLI).
+This repository houses the dedicated **30-Agent Multi-Division Engineering Organization** designed to build, test, audit, and package **GitKlaw** (the autonomous AI Git & GitHub CLI).
 
 ---
 
