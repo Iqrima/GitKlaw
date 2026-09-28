@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/dolphin.jpg" width="160" alt="GitClaw Mascot" style="border-radius: 50%;">
+</p>
+
 # 🐬 GitClaw
 
 > **The Autonomous Local-First Git Co-Pilot & Disaster Recovery Engine.**  
